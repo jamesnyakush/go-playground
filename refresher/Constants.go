@@ -15,7 +15,6 @@ func main() {
 	const degrees = 360
 	fmt.Println(degrees)
 
-	fmt.Println("My name is",NAME,"My age",AGE,"My tech stack is",STACK)
-
+	fmt.Println("My name is", NAME, "My age", AGE, "My tech stack is", STACK)
 
 }
