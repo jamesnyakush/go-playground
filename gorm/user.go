@@ -43,6 +43,7 @@ func AllUsers(w http.ResponseWriter, r *http.Request) {
 	var users []User
 
 	db.Find(&users)
+	w.Header().Set("Content-Type", "application/json")
 
 	json.NewEncoder(w).Encode(users)
 
